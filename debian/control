@@ -1,0 +1,22 @@
+Source: holdup
+Section: utils
+Priority: optional
+Maintainer: luke <agzlftubx@mozmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/lnee94/holdup
+#Vcs-Browser: https://github.com/lnee94/holdup
+#Vcs-Git: https://github.com/lnee94/holdup.git
+
+Package: holdup
+Architecture: any
+Depends:
+ ${misc:Depends},
+ procps,
+Description: Slows down other processes.
+ If you ever played a video game.
+ You might have realised that your not good at playing videogames.
+ You have a couple of options quit playing, get good, or, cheat.
+ This program is if you want to take the third.
